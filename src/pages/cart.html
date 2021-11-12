@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <header id="header"></header>
+    <main class='main_cart'>
+        <div class='cart_style'>
+            <div id='cart_count' class='cart_title'>My Cart (0 item)</div>
+            <div id='cart_products' class='cart_products_list'></div>
+            <div class="promo_text_container">
+                <img src='../../static/images/lowest-price.png' alt='Lowest price' height="80%" style='margin-left: 20px;'>
+                <span class='promo_text'>You won't find it cheaper anywhere.</span>
+            </div>
+        </div>
+    </main>
+    <div class='promo_code_container'>
+        Promo code can be applied on your payment page.
+    </div>
+    <div id='checkout_cta_id' class='checkout_cta_section'>
+        <button name='checkout' class='checkout_cta'>
+            <span>
+                Proceed to checkout
+            </span>
+            <span id="total_price">
+            </span>
+        </button>
+    </div>
+    <footer id="footer" class="footer_style"></footer>
+    <script type="module" src="../scripts/headerTemplate.js"></script>
+    <script type='module' src='../scripts/fetchCart.js'></script>
+  </body>
+</html>

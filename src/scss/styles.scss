@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 5px;
+}
+
+.footer_style {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+}
+
+.footer_style div {
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  display: flex;
+  background-color: #d1d0d0b3;
+  height: 100%;
+}
+
+.footerText {
+  @media screen and (max-width: 768px) {
+    font-size: smaller;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: x-small;
+  }
+}

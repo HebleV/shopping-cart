@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Product List</title>
+  </head>
+  <body>
+    <header id="header"></header>
+    <main class='product_list_container'>
+      <div class='product_page_content'>
+        <nav class='product_page_sidebar'>
+          <ul id="sidebar_nav_id" class='sidebar_nav'></ul>
+        </nav>
+        <div id="product_container_id" class='products_list_container'></div>
+      </div>
+    </main>
+    <footer id="footer" class="footer_style"></footer>
+    <script type="module" src="../scripts/headerTemplate.js"></script>
+    <script type="module" src="../scripts/fetchProductList.js"></script>
+    <script type='module' src='../scripts/fetchCart.js'></script>
+    <script type="module" src="../scripts/footerTemplate.js"></script>
+  </body>
+</html>

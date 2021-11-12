@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Register</title>
+  </head>
+  <body>
+    <header id="header"></header>
+    <main class="main_login">
+      <div class="container_login">
+        <div class="main_text">
+          <h1>Registration</h1>
+        </div>
+        <div class="main_text">
+          <form name='register' class="login_form">
+            <label class="form_label" for="firstName">Full Name</label>
+            <input 
+              type="text" 
+              id="fullName" 
+              class="form_input" 
+              name="fullName" 
+              required
+            />
+            <label class="form_label" for="email">Email</label>
+            <input 
+              type="email"
+              id="email" 
+              class="form_input" 
+              name="email" 
+              required
+            />
+            <label class="form_label" for="password">Password</label>
+            <input
+              type="password"
+              id="password" 
+              class="form_input" 
+              name="password" 
+              required
+            />
+            <label class="form_label" for="confirmPassword">Confirm Password</label>
+            <input 
+              type="password" 
+              id="confirmPassword"
+              class="form_input"  
+              name="confirmPassword" 
+              required
+            />
+            <button class="cta_button">Signup</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer id="footer" class="footer_style"></footer>
+    <script type="module" src="../scripts/headerTemplate.js"></script>
+    <script type="module" src="../scripts/footerTemplate.js"></script>
+  </body>
+</html>
